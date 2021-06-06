@@ -1,0 +1,96 @@
+textarea {
+    min-height: 400px;
+    white-space: pre-wrap;   
+}
+
+.custom-btn {
+    border: none;
+}
+
+.custom-btn:hover {
+    color: #007bff;
+    background-color: initial;
+}
+
+
+.header-right-top p{
+    margin: 0;
+}
+
+/* Mailbox custom */
+
+.email-read {
+    background-color: #e8e8e8;
+}
+
+.email-unread {
+    background-color: white;
+}
+
+.table tbody tr:hover {
+    cursor: pointer;
+    background-color: rgb(147, 181, 212);
+}
+
+.table td {
+    padding: 0px;
+}
+
+.table tr i {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+/* View mail */
+
+.view-mail-container {
+    background-color: #eee;
+    min-height: 400px;
+}
+
+.view-mail-header {
+    background-color: rgb(165, 206, 230);
+}
+
+.view-mail-header-top, .view-mail-header-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.view-mail-main {
+    padding: 10px;
+}
+
+.view-mail-main p {
+    margin-bottom: 0px;    
+    white-space: pre-wrap;   
+}
+
+/* Compose mail */
+
+.compose-view-header {
+    color: #fff;
+    background-color: lightslategrey;
+    border-radius: 20px 20px 0 0;
+}
+
+.compose-view-header h3 {
+    padding: 10px;
+    padding-left: 15px;
+}
+
+#compose-view {
+    background-color: #eee;
+    border-radius: 20px;
+    padding: 0;
+}
+
+#compose-form {
+    padding: 5px 25px;
+}
+
+#compose-body + input {
+    margin: 15px;
+    padding: 0 20px;
+}
